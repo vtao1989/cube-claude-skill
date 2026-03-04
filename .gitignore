@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+.Rhistory
+output/.Rhistory
+__pycache__/
+*.pyc
+failed.txt
+.claude/settings.local.json
