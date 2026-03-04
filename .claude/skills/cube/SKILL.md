@@ -1,6 +1,6 @@
 ---
 name: cube
-description: This skill should be used whenever the user asks questions about CUBE, Cube Voyager, CUBE CONNECT Edition, Cube Base, Cube Cluster, CubePy, or any Bentley CUBE travel demand modeling software — including syntax, scripting, applications, settings, how-to questions, troubleshooting, or concepts. Activate when the user mentions "cube", "voyager", "cube scripting", "cube application", "CUBE 7", "pt", "highway", "matrix", "catalog", "scenario", "application manager", or any CUBE-specific keyword.
+description: This skill should be used whenever the user asks questions about CUBE, Cube Voyager, CUBE CONNECT Edition, Cube Base, Cube Cluster, CubePy, or any Bentley CUBE travel demand modeling software — including syntax, scripting, applications, settings, how-to questions, troubleshooting, or concepts. Activate when the user mentions "cube", "voyager", "cube scripting", "cube application", "CUBE 2024", "pt", "highway", "matrix", "catalog", "scenario", "application manager", or any CUBE-specific keyword.
 version: 1.0.0
 ---
 
@@ -54,6 +54,6 @@ The `output/` directory contains 385 Markdown files covering:
 ## Important notes
 
 - Always search before answering — do not rely on general knowledge about CUBE
-- The documentation is for CUBE 7 (CUBE CONNECT Edition)
+- The documentation is for CUBE 2024 (CUBE CONNECT Edition)
 - Voyager script syntax examples in the docs are authoritative
 - If multiple files are relevant, synthesize them into a coherent answer

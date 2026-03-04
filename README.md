@@ -1,11 +1,11 @@
-# CUBE 7 Claude Code Skill
+# CUBE 2024 Claude Code Skill
 
-A [Claude Code](https://claude.ai/claude-code) skill that answers questions about **Bentley CUBE 7** (CUBE CONNECT Edition) travel demand modeling software, backed by the full scraped official documentation.
+A [Claude Code](https://claude.ai/claude-code) skill that answers questions about **Bentley CUBE 2024** (CUBE CONNECT Edition) travel demand modeling software, backed by the full scraped official documentation.
 
 ## What it is
 
-- A custom Claude Code skill (`SKILL.md`) that instructs Claude to search and read local CUBE 7 docs before answering
-- 386 Markdown files scraped from the Bentley CUBE 7 official documentation, covering Voyager scripting, Highway, PT, Matrix, CubePy, and more
+- A custom Claude Code skill (`SKILL.md`) that instructs Claude to search and read local CUBE 2024 docs before answering
+- 386 Markdown files scraped from the Bentley CUBE 2024 official documentation, covering Voyager scripting, Highway, PT, Matrix, CubePy, and more
 - A scraper (`scraper.py`) to regenerate the docs from the Bentley website
 
 ## Prerequisites
@@ -40,7 +40,7 @@ When you ask a CUBE-related question, Claude Code activates the `cube` skill whi
 3. **Synthesizes** a direct answer with citations to the source documentation pages
 
 The skill covers:
-- Getting Started and migration to CUBE 7
+- Getting Started and migration to CUBE 2024
 - CUBE Base: Project Explorer, Application Manager, Scenario Manager, Catalog Manager
 - CUBE Voyager: Highway, PT, Matrix, Walk, PILOT, FREQ applications
 - Voyager scripting syntax: variables, keywords, control flow, file I/O
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 python scraper.py
 ```
 
-This will overwrite the files in `output/` with fresh content from the Bentley CUBE 7 documentation site.
+This will overwrite the files in `output/` with fresh content from the Bentley CUBE 2024 documentation site.
 
 ## Documentation Copyright
 

@@ -1,5 +1,5 @@
 """
-Scraper for Bentley CUBE 7 documentation.
+Scraper for Bentley CUBE 2024 documentation.
 
 Key findings:
 - All GUID pages are static HTML (no JS rendering needed)
@@ -163,7 +163,7 @@ def main():
         time.sleep(REQUEST_DELAY)
 
     # Write index.md
-    index_lines = ["# CUBE 7 Documentation Index\n"]
+    index_lines = ["# CUBE 2024 Documentation Index\n"]
     for title, filename in index_entries:
         index_lines.append(f"- [{title}]({filename})")
     (OUTPUT_DIR / "index.md").write_text("\n".join(index_lines) + "\n", encoding="utf-8")
